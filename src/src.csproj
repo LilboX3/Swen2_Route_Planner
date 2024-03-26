@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="Business Layer\Business Layer.csproj" />
+    <ProjectReference Include="Data Layer\Data Layer.csproj" />
+  </ItemGroup>
+
 </Project>
